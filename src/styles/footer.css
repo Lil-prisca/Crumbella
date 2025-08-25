@@ -1,0 +1,46 @@
+.footer {
+  background: #5a2d82;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  padding: 3rem 2rem;
+}
+
+.footer h4 {
+  margin-bottom: 1rem;
+}
+
+.footer a {
+  color: #ede7f6;
+  display: block;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #f8bbd0;
+}
+.socials {
+  display: flex;
+}
+.socials a {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  color: white;
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: #f8bbd0;
+}
+
+.gallery {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.gallery img {
+  width: 60px;
+  border-radius: 8px;
+}
