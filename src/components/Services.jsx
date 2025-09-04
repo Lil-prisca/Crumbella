@@ -16,28 +16,28 @@ export default function Services() {
       icon: <FaBreadSlice />,
       title: "Quality Products",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, ut!",
+        "We use only the finest, freshest ingredients to bake breads, cakes, and cookies you can trust.",
     },
     {
       id: 2,
       icon: <FaBirthdayCake />,
-      title: "Custom Products",
+      title: "Custom Orders",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, ut!",
+        "From birthday cakes to wedding treats, we design and bake products tailored to your taste.",
     },
     {
       id: 3,
       icon: <FaCartPlus />,
-      title: "Online Order",
+      title: "Easy  Ordering",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, ut!",
+        "Browse our menu, tell us how you want it customized , and place your order.",
     },
     {
       id: 4,
       icon: <FaTruck />,
-      title: "Home Delivery",
+      title: "Fast Home Delivery",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, ut!",
+        "Freshly baked and carefully packed, your order arrives at your doorstep right on time.",
     },
   ];
 
@@ -47,9 +47,9 @@ export default function Services() {
         <p className="tag">// Our Services</p>
         <h1>What Do We Offer For You?</h1>
         <p className="services-texts">
-          Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-          diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-          lorem sit clita duo justo magna dolore erat amet
+          At Crumbella, we do more than bake. We create experiences—from
+          everyday snacks to unforgettable celebration cakes—all made with love
+          and delivered with care.
         </p>
         <div className="service-list">
           {services.map((s) => (
@@ -65,8 +65,8 @@ export default function Services() {
       </div>
       <div className="services-images">
         <div className="under"></div>
-        <img src={service1} alt="Service 1" className="img1" />
-        <img src={service2} alt="Service 2" className="img2" />
+        <img src={service1} alt="Baker preparing bread" className="img1" />
+        <img src={service2} alt="Freshly baked cake" className="img2" />
       </div>
     </section>
   );
