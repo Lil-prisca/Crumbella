@@ -5,9 +5,16 @@ import "slick-carousel/slick/slick-theme.css";
 
 import car1 from "../assets/carousel-1.jpg";
 import car2 from "../assets/carousel-2.jpg";
+// import product1 from "../assets/product-1.jpg";
+// import product2 from "../assets/product-2.jpg";
+// import product3 from "../assets/product-3.jpg";
 import "../index.css";
 
-const images = [car1, car2];
+const images = [
+  car1,
+  car2,
+  //  product1, product2, product3
+];
 
 const Carousel = () => {
   const settings = {
@@ -36,9 +43,10 @@ const Carousel = () => {
         <p>// The best Bakery</p>
         <h1 style={{ color: "#5a2d82" }}>We bake with Passion</h1>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, ipsa!
+         We create sweet experience. 
+          <span style={{fontStyle: "italic",fontWeight: "bold",fontSize: "20px",color: "#5a2d82",}}>Sweet. soft. Crumbella.</span>
         </p>
-        <button className="read_more">Read More</button>
+        {/* <button className="read_more">Read More</button> */}
       </div>
       <div className="overlay"></div>
       <Slider {...settings}>

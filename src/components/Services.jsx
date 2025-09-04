@@ -46,7 +46,7 @@ export default function Services() {
       <div className="services-text">
         <p className="tag">// Our Services</p>
         <h1>What Do We Offer For You?</h1>
-        <p>
+        <p className="services-texts">
           Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
           diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
           lorem sit clita duo justo magna dolore erat amet
@@ -58,13 +58,13 @@ export default function Services() {
                 <div className="icon">{s.icon}</div>
                 <h5 className="title">{s.title}</h5>
               </div>
-              <h5 className="title">{s.description}</h5>
+              <h5 className="description">{s.description}</h5>
             </div>
           ))}
         </div>
       </div>
       <div className="services-images">
-        {/* <div className="under"></div> */}
+        <div className="under"></div>
         <img src={service1} alt="Service 1" className="img1" />
         <img src={service2} alt="Service 2" className="img2" />
       </div>

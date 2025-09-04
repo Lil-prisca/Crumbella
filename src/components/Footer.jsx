@@ -8,6 +8,7 @@ import {
   FaFacebookF,
   FaYoutube,
   FaLinkedinIn,
+  FaInstagram,
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -30,6 +31,9 @@ export default function Footer() {
           </a>
           <a href="#">
             <FaLinkedinIn />
+          </a>
+          <a href="#">
+            <FaInstagram />
           </a>
         </div>
       </div>

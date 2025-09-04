@@ -52,23 +52,23 @@ const Navbar = () => {
         <NavLink to="/product" className={linkClass}>
           Products
         </NavLink>
-        <div className="nav-dropdown">
-          <span className="nav-link">Pages</span>
-          <div className="dropdown-menu">
-            <NavLink to="/team" className={linkClass}>
-              Our Team
-            </NavLink>
-            <NavLink to="/testimonial" className={linkClass}>
-              Testimonial
-            </NavLink>
-            <NavLink to="/404" className={linkClass}>
-              404 Page
-            </NavLink>
-          </div>
-        </div>
+        {/* <div className="nav-dropdown"> */}
+        {/* <span className="nav-link">Pages</span> */}
+        {/* <div className="dropdown-menu"> */}
+        {/* <NavLink to="/team" className={linkClass}> */}
+        {/* Our Team */}
+        {/* </NavLink> */}
+        {/* {/* <NavLink to="/testimonial" className={linkClass}> */}
+        {/* Testimonial */}
+        {/* </NavLink> */}
+        {/* <NavLink to="/404" className={linkClass}> */}
+        {/* 404 Page */}
+        {/* </NavLink> */}
+        {/* </div> */}
+        {/* </div> */}
         <NavLink to="/contact" className={linkClass}>
           Contact Us
-          <FaPhoneAlt style={{ marginLeft: "3px" }} />
+          {/* <FaPhoneAlt style={{ marginLeft: "3px" }} /> */}
         </NavLink>
       </div>
     </nav>

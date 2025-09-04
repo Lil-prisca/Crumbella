@@ -3,12 +3,14 @@ import "../styles/products.css";
 import product1 from "../assets/product-1.jpg";
 import product2 from "../assets/product-2.jpg";
 import product3 from "../assets/product-3.jpg";
+import product4 from "../assets/product-4.jpg";
 
 export default function Products() {
   const items = [
-    { id: 1, title: "Cake", price: "$11 - $99", img: product1 },
-    { id: 2, title: "Bread", price: "$11 - $99", img: product2 },
-    { id: 3, title: "Cookies", price: "$11 - $99", img: product3 },
+    { id: 1, title: "Cake", price: "#2000 - #2500", img: product1 },
+    { id: 4, title: "Cake", price: "#2000 - #2500", img: product4, description:"" },
+    { id: 2, title: "Bread", price: "#2000 - #2500", img: product2,description:"" },
+    { id: 3, title: "Cookies", price: "#2000 - #2500", img: product3,description:"" },
   ];
 
   return (

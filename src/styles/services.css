@@ -1,6 +1,5 @@
 .services {
   display: flex;
-  flex-wrap: wrap;
   gap: 2rem;
   padding: 4rem 2rem;
   background: #ffffff;
@@ -8,18 +7,20 @@
 }
 
 .services-text {
-  flex: 1;
-  min-width: 300px;
+  width: 50%;
 }
 
 .services-text .tag {
   color: #5a2d82;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .services-text h1 {
   color: #5a2d82;
   margin: 1rem 0;
+}
+.services-texts {
+  color: black;
 }
 
 .service-list {
@@ -32,41 +33,106 @@
 .service-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  /* gap: 1rem; */
+
+  height: fit-content;
 }
 .heading {
   display: flex;
-  gap: 1rem;
-  justify-content: center;
+  gap: 0.5rem;
   align-items: center;
+
+  height: fit-content;
 }
 /* .service-item */
 .icon {
-  background: #5a2d82;
-  color: white;
+  /* background: #5a2d82; */
+  /* color: black; */
+  color: #5a2d82;
   padding: 0.7rem;
   border-radius: 50%;
-  height: fit-content;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
 }
 .service-item .title {
-  /* background: #5a2d82; */
   color: black;
-  /* padding: 0.7rem; */
-  /* border-radius: 50%; */
   font-size: 1.2rem;
+  margin: 0;
+}
+.description {
+  color: black;
+  margin-top: 5px;
+  /* font-size: small; */
+  font-weight: lighter;
 }
 
+/* side/bottom images */
 .services-images {
+  width: 50%;
   flex: 1;
   display: flex;
   gap: 1rem;
-  flex-direction: column;
+  height: 500px;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .services-images img {
-  width: 100%;
+  position: relative;
+  height: 300px;
+  width: fit-content;
   border-radius: 12px;
+}
+.img2 {
+  align-self: flex-start;
+}
+.img2 {
+  align-self: flex-end;
+}
+.under {
+  background-color: #5a2d82;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  z-index: 0;
+  border-radius: 12px;
+}
+
+@media (max-width: 970px) {
+  .services-images {
+    height: 400px;
+    width: 400px;
+  }
+  .services-images img {
+    height: 250px;
+  }
+  .under {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (max-width: 768px) {
+  .services {
+    display: block;
+  }
+  .services-images {
+    /* flex-direction: column; */
+    width: 100%;
+    height: fit-content;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+  .services-images img {
+    height: 200px;
+    width: 200px;
+  }
+  .services-text {
+    width: 100%;
+  }
+  .under {
+    width: 150px;
+    height: 150px;
+  }
 }

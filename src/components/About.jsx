@@ -15,14 +15,35 @@ export default function About() {
         <p className="tag">// About Us</p>
         <h1>We Bake Every Item From The Core Of Our Hearts</h1>
         <p>
-          Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-          diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-          lorem sit clita duo justo magna.
+          At Crumbella we believe in more than just desserts. we create sweet
+          experience. Our name blends crumbs with soft elegant touch that
+          reflects our signature style :
+          <span
+            style={{
+              fontStyle: "italic",
+              fontWeight: "bold",
+              fontSize: "20px",
+              color: "#5a2d82",
+            }}
+          >
+            Sweet. soft. Crumbella.
+          </span>{" "}
         </p>
         <p>
-          Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-          diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-          lorem sit clita duo justo magna.
+          From Beautifully crafted{" "}
+          <span
+            style={{
+              fontStyle: "italic",
+              fontWeight: "bold",
+              fontSize: "15px",
+              color: "#5a2d82",
+            }}
+          >
+            Cakes and fluffy pasteries to foil Cakes, parfaits, cookies, zobo,
+            and more.{" "}
+          </span>{" "}
+          We serve everday indulgence with homemade heart. Every order is made
+          with care, creativity and a sprinkle of love.
         </p>
         <ul className="about-list">
           <li>✔ Quality Products</li>
