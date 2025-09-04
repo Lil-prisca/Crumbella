@@ -15,10 +15,10 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-col">
-        <h4>Office Address</h4>
-        <p>123 Street, New York, USA</p>
-        <p>+012 345 67890</p>
-        <p>info@example.com</p>
+      <h4> Office Address</h4>
+        <p>📍 123 Street, New York, USA</p>
+        <p>📞 +012 345 67890</p>
+        <p>📧 info@example.com</p>
         <div className="socials">
           <a href="#">
             <FaTwitter />
@@ -42,8 +42,6 @@ export default function Footer() {
         <a href="#">About Us</a>
         <a href="#">Contact Us</a>
         <a href="#">Our Services</a>
-        <a href="#">Terms & Condition</a>
-        <a href="#">Support</a>
       </div>
       <div className="footer-col">
         <h4>Photo Gallery</h4>
@@ -56,3 +54,16 @@ export default function Footer() {
     </footer>
   );
 }
+      // Optional small gallery OR newsletter
+      {/* <div className="footer-col"> */}
+        {/* <h4>Stay Connected</h4> */}
+        {/* <p>Join our newsletter for sweet updates!</p> */}
+        {/* <form className="newsletter"> */}
+          {/* <input type="email" placeholder="Enter your email" /> */}
+          {/* <button type="submit">Subscribe</button> */}
+        {/* </form> */}
+      {/* </div> */}
+    {/* </footer> */}
+  // );
+// }
+// 

@@ -1,0 +1,93 @@
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 4rem 8%;
+  align-items: flex-start;
+  background: #fff8fb; /* soft bakery feel */
+}
+
+.contact-text {
+  max-width: 500px;
+}
+
+.contact .tag {
+  color: #5a2d82;
+  font-weight: bold;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.contact h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  margin-bottom: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.contact-details {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.contact-details li {
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #5a2d82;
+}
+
+.contact-form button {
+  padding: 0.9rem;
+  background: #5a2d82;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #472066;
+}
+
+/* 📱 Responsive */
+@media (max-width: 900px) {
+  .contact {
+    grid-template-columns: 1fr;
+  }
+}

@@ -4,6 +4,7 @@ import Login from "./pages/Login";
 import About from "./pages/About";
 import Product from "./pages/Product";
 import Services from "./pages/Services";
+import ContactUs from "./pages/Contact";
 import NotFoundPage from "./pages/NotFoundPage";
 
 import Mainlayout from "./Layouts/Mainlayout";
@@ -17,7 +18,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/product" element={<Product />} />
         <Route path="/service" element={<Services />} />
-        <Route path="/contact" element={<Login />} />
+        <Route path="/contact" element={<ContactUs />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     </Routes>

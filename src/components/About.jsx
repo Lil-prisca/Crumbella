@@ -8,29 +8,32 @@ export default function About() {
     <section className="about">
       <div className="about-images">
         <div className="under"></div>
-        <img src={about1} alt="Bakery item 1" className="about-img first" />
-        <img src={about2} alt="Bakery item 2" className="about-img second" />
+        <img src={about1} alt="Freshly baked bread" className="about-img first" />
+        <img src={about2} alt="Decorated cake" className="about-img second" />
       </div>
+
       <div className="about-text">
         <p className="tag">// About Us</p>
-        <h1>We Bake Every Item From The Core Of Our Hearts</h1>
+        <h1>We Bake Every Treat From the Heart</h1>
+
         <p>
-          At Crumbella we believe in more than just desserts. we create sweet
-          experience. Our name blends crumbs with soft elegant touch that
-          reflects our signature style :
+          At <strong>Crumbella</strong>, we believe in more than just desserts —
+          we create <em>sweet experiences</em>. Our name blends crumbs with a
+          touch of elegance, reflecting our signature style:
           <span
             style={{
               fontStyle: "italic",
               fontWeight: "bold",
               fontSize: "20px",
               color: "#5a2d82",
-            }}
-          >
-            Sweet. soft. Crumbella.
-          </span>{" "}
+            }}>
+           
+            Sweet. Soft. Crumbella.
+          </span>
         </p>
+
         <p>
-          From Beautifully crafted{" "}
+          From beautifully crafted{" "}
           <span
             style={{
               fontStyle: "italic",
@@ -39,18 +42,20 @@ export default function About() {
               color: "#5a2d82",
             }}
           >
-            Cakes and fluffy pasteries to foil Cakes, parfaits, cookies, zobo,
-            and more.{" "}
+            cakes and fluffy pastries to foil cakes, parfaits, cookies, zobo,
+            and more,
           </span>{" "}
-          We serve everday indulgence with homemade heart. Every order is made
-          with care, creativity and a sprinkle of love.
+          we serve everyday indulgence with a homemade heart. Every order is made
+          with care, creativity, and a sprinkle of love.
         </p>
+
         <ul className="about-list">
-          <li>✔ Quality Products</li>
-          <li>✔ Custom Products</li>
-          <li>✔ Online Order</li>
-          <li>✔ Home Delivery</li>
+          <li>✔ Quality Ingredients</li>
+          <li>✔ Custom-Made Products</li>
+          <li>✔ Easy Online Ordering</li>
+          <li>✔ Fast Home Delivery</li>
         </ul>
+
         <button className="btn">Read More</button>
       </div>
     </section>
